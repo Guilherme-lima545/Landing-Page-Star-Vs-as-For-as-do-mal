@@ -1,0 +1,287 @@
+.cabecalho {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0d163d;
+    border-bottom: 1px solid #282828;
+    width: 100%;
+    height: 80px;
+}
+
+.cabecalho .logo img {
+    width: 80%;
+    cursor: pointer;   
+}
+
+.logo {
+    width: 5%;
+}
+
+.cabecalho .texto nav ul li a {
+    list-style: none;
+    font-size: 20px;
+    text-decoration: dashed;
+    width: 50%;
+    color: white;
+}
+
+.texto nav ul li a {
+    width: 100%;
+
+}
+
+ul li {
+    display: inline;
+    padding: 50px;
+}
+
+.cabecalho .texto ul li a:hover {
+    color: darkred;
+}
+
+.container .imagemfundo img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+.cabecalho .texto {
+    width: 100%;
+}
+
+.container .starlg img {
+    display: flex;
+    position: relative;
+    margin-top: -800px;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+
+.textos {
+    filter: drop-shadow(12px 12px 8px black);
+}
+
+.starlg img {
+    position: absolute;
+    display: flex;
+    margin: 0 auto;
+    filter: drop-shadow(12px 12px 8px black);
+}
+
+.tracking-in-contract-bck {
+	animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+/**
+ * ----------------------------------------
+ * animation tracking-in-contract-bck
+ * ----------------------------------------
+ */
+
+ @keyframes tracking-in-contract-bck {
+    0% {
+      letter-spacing: 1em;
+      transform: translateZ(400px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+
+  h1 {
+    position: relative;
+    color: rgb(219,18,206);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+  }
+  
+  p {
+    position: relative;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+.container .botao button {
+    position: relative;
+    width: 30%;
+    height: 50px;
+    font-size: 20px;
+    border-color: none;
+    align-items: center;
+    text-align: center;
+    background: rgb(137,18,219);
+    background: linear-gradient(90deg, rgba(137,18,219,1) 0%, rgba(0,0,14,1) 45%);
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    outline:none;  
+}
+
+button {
+    border-radius: 30px;
+    justify-content: center;
+}
+
+/**
+ * ----------------------------------------
+ * Section - Cards
+ * ----------------------------------------
+ */
+
+section {
+    width: 100%;
+    height: 1600px;
+    background: rgb(0,41,252);
+    background: linear-gradient(90deg, rgba(0,41,252,1) 0%, rgba(0,0,14,1) 73%);
+    background-size: cover;
+}
+
+ .temporadas  {
+    height: 50%;
+    width: 100%;
+   
+ }
+
+.temporadas .cards {
+    height: 0px;
+    margin-top: 290px;
+    inline-size: auto;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    display: inline-block;
+    list-style: none;
+}
+
+
+ .temporadas .cards .primeira img {
+    position: absolute;
+    border-radius: 30px;
+    box-shadow:  35px 35px 70px black,
+             -35px -35px 70px black;
+    display: inline;
+    width: 20%;
+    margin-top: 400px;
+    margin-left: 200px;
+ }
+
+
+ .temporadas .cards .segunda img {
+    width: 20%;
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 380px;
+    border-radius: 30px;
+    box-shadow:  35px 35px 70px black,
+             -35px -35px 70px black;
+    display: inline;
+    align-items: center;
+    display: inline;
+    justify-content: center;
+ }
+
+ .temporadas .cards .terceira img {
+    width: 20%;
+    position: absolute;
+    margin-left: 1150px;
+    margin-top: 380px;
+    border-radius: 30px;
+    box-shadow:  35px 35px 70px black,
+             -35px -35px 70px black;
+    display: flex;
+ }
+
+ h2,h3,h4 {
+    position: absolute;
+ }
+
+ h2 {
+    display: flex;
+    margin-top: 1000px;
+    margin-left: 340px;
+ }
+
+ h3 {
+    display: flex;
+    font-size: 25px;
+    margin-top: 1000px;
+    margin-left: 770px;
+ }
+
+ h4 {
+    display: flex;
+    font-size: 30px;
+    margin-left: 1280px;
+    margin-top: 990px;
+ }
+
+ h2:hover {
+    color: darkmagenta;
+ }
+
+ h3:hover {
+    color: darkmagenta;
+ }
+
+ h4:hover {
+    color: darkmagenta;
+ }
+
+ h5 {
+    position: absolute;
+    color: white;
+    display: flex;
+    margin-left: 500px;
+    margin-top: 400px;
+    font-size: 100px;
+ }
+
+
+ /* AUDIO */
+
+
+ audio::-webkit-media-controls-panel{
+    background-color: #0d163d;
+    
+ }
+
+ audio::-webkit-media-controls-play-button:hover {
+    background-color: white;
+    border-radius: 30px;
+ }
+
+ audio::-webkit-media-controls-current-time-display {
+    color: white;
+ }
+
+ audio::-webkit-media-controls-timeline-container {
+    color: white;
+ }
+
+ audio::-webkit-media-controls-time-remaining-display {
+    color: white;
+ }
+
+ audio::-webkit-media-controls-timeline {
+    color: white;
+ }
+
+ audio::-webkit-media-controls-volume-slider {
+    color: white;
+ }
+
+ 

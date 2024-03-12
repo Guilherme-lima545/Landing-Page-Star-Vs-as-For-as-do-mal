@@ -1,0 +1,266 @@
+@media (max-width: 1024px) {
+    .starlg {
+        margin-top: 400px;
+    }
+
+
+    h5 {
+        width: 50%;
+        font-size: 50px;
+        right: 200px;
+    }
+
+    .cards {
+        margin-right: 1500px;
+        right: 500px;
+    }
+
+    .cabecalho .logo {
+        width: 10%;
+    }
+
+    .temporadas .cards .primeira img {
+        margin-right: 500px;
+        right: 20%;
+    }
+
+    .temporadas .cards .segunda img {
+        right: 40%;
+    }
+
+    .temporadas .cards .terceira img {
+        right: 10%;
+    }
+
+    .cards {
+        margin-right: 0px;
+    }
+
+    h2,h3,h4 {
+        margin-left: 150px;
+    }
+
+    h2 {
+        margin-top: 750px;
+    }
+
+    h3 {
+        margin-top: 750px;
+        margin-left: 450px;
+    }
+
+    h4 {
+        margin-top: 750px;
+        margin-left: 750px;
+    }
+
+    audio {
+        width: 10%;
+    }
+}
+
+@media (max-width: 903px) {
+    h2 {
+        margin-top: 750px;
+        margin-left: 70px;
+    }
+
+    h3 {
+        margin-top: 750px;
+        margin-left: 390px;
+    }
+
+    h4 {
+        margin-top: 750px;
+        margin-left: 650px;
+    }
+
+}
+
+@media (max-width: 414px) {
+    audio {
+        overflow: hidden;
+    }
+
+    .botao {
+        margin-top: 240px;
+    }
+
+    h5 {
+        margin-right: -20%;
+    }
+
+   
+
+    h2 {
+        font-size: 10px;
+        margin-left: 60px;
+        margin-top: 525px;
+    }
+
+    h3 {
+        margin-top: 525px;
+        margin-left: 170px;
+        font-size: 10px;
+    }
+
+    h4 {
+        margin-top: 520px;
+        font-size: 10px;
+        margin-left: 300px;
+    }
+
+    .temporadas .cards .primeira img {
+        margin-left: 100px;
+        margin-right: 50%;
+    }
+
+   h1,p {
+   position: absolute;
+   }
+
+}
+
+@media (max-width: 375px) {
+    h4 {
+        margin-left: 270px;
+    }
+
+    h3 {
+        margin-left: 160px;
+    }
+
+    h2 {
+        margin-left: 50px;
+    }
+}
+
+
+@media (max-width: 1440px) {
+    .starlg {
+        margin-top: 250px;
+    }
+
+    h4 {
+        margin-left: 1200px;
+    }
+
+    h3 {
+        margin-left: 50%;
+    }
+
+    h2 {
+        margin-left: 20%;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    h4 {
+        margin-left: 73%;
+    }
+
+    h3 {
+        margin-left: 45%;
+    }
+
+    h2 {
+        margin-left: 17%;
+    }
+
+    .starlg {
+        margin-top: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    h5 {
+        width: 100%;
+        margin-right: -50%;
+    }
+
+    .starlg {
+        margin-top: 450px;
+    }
+
+    .temporadas .cards .primeira img {
+        margin-right: 50%;
+    }
+
+    h2 {
+        margin-left: 12%;
+    }
+
+}
+
+@media (max-width: 425px) {
+
+    audio {
+        overflow: hidden;
+    }
+
+    .botao {
+        margin-top: 140px;
+    }
+
+    h5 {
+        width: 100%;
+        margin-right: -300px;
+        margin-left: 500px;
+    }
+
+   
+
+    h2 {
+        font-size: 10px;
+        margin-left: 60px;
+        margin-top: 525px;
+    }
+
+    h3 {
+        margin-top: 525px;
+        margin-left: 170px;
+        font-size: 10px;
+    }
+
+    h4 {
+        margin-top: 520px;
+        font-size: 10px;
+        margin-left: 300px;
+    }
+
+    .temporadas .cards .primeira img {
+        margin-left: 100px;
+        margin-right: 50%;
+    }
+
+   h1,p {
+   position: absolute;
+   margin-top: -300px;
+   }
+
+} 
+
+@media (max-width: 768px) {
+    h5 {
+        margin-right: -30%;
+       text-align: center;
+       justify-content: center;
+    }
+}
+
+@media (max-width: 375px) {
+
+    h5 {
+        display: flex;
+        margin-right: -50%;
+    }
+
+    .botao {
+        margin-top: 220px;
+    }
+
+    h4 {
+        margin-left: 280px;
+    }
+}
